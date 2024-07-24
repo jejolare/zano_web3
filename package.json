@@ -7,6 +7,10 @@
   "scripts": {
     "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jejolare/zano_web3.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,5 +20,9 @@
   },
   "dependencies": {
     "uuid": "^10.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jejolare/zano_web3/issues"
+  },
+  "homepage": "https://github.com/jejolare/zano_web3#readme"
 }
