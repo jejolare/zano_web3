@@ -11,7 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/jejolare/zano_web3.git"
   },
-  "keywords": [],
+  "keywords": [
+    "zano",
+    "web3",
+    "crypto",
+    "blockchain",
+    "wallet"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
