@@ -88,6 +88,30 @@ zanoWallet.setWalletCredentials({
 });
 ```
 
+## Using the `useZanoWallet` Hook
+
+The `useZanoWallet` hook is a custom React hook provided by the `zano_web3` library. It simplifies the process of interacting with the ZanoWallet extension in a React application.
+
+This hook is designed to handle server-side rendering (SSR) limitations by ensuring that it only runs on the client-side. This means that any code using the `useZanoWallet` hook will not be executed during server-side rendering, but will work as expected once the application is running in the browser.
+
+To use the `useZanoWallet` hook, you can import it from the `zano_web3` library and call it within a functional component:
+
+```typescript
+import { useZanoWallet } from 'zano_web3';
+
+function MyComponent() {
+    
+    const wallet = useZanoWallet({
+        // same params as for new ZanoWallet
+    });
+
+    return (
+       <div>Your component...</div>
+    );
+}
+```
+
+
 ## Requirements
 
 - ZanoWallet browser extension must be installed.
